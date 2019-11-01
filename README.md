@@ -1,2 +1,3 @@
 # GoTrust
-Golang Example: Use C++ Trust Core.
+
+After downloading the project, unzip `TrustWalletCore.zip` and run `main_test.go` .
