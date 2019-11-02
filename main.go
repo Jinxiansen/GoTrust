@@ -60,7 +60,7 @@ func createAEWallet() {
 	address := C.TWAeternityAddressCreateWithPublicKey(pubKey)
 	addressStr := C.TWAeternityAddressDescription(address)
 
-	fmt.Println("PrivateKey: ", privateKeyStr)
+	fmt.Println("PrivateKey: ", convertGoString(privateKeyStr))
 	fmt.Println("PubKey: ", convertGoString(pubKeyStr))
 	fmt.Println("addressStr ", convertGoString(addressStr))
 
