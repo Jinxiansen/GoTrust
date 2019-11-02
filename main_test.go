@@ -10,3 +10,14 @@ func Test_main(t *testing.T) {
 
 	test()
 }
+
+func Test_AE_Wallet(t *testing.T) {
+
+	createAEWallet()
+}
+
+func Test_ConvertTWString(t *testing.T) {
+
+	s := convertToTWString("hello")
+	fmt.Println("S = ", s)
+}
